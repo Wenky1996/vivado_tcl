@@ -4,7 +4,8 @@
   cd $workdir
   set prjname wave_gen_project
   file mkdir ./$prjname
-  set part xc7a200tsbg484-1
+  #set part xc7a200tsbg484-1
+  set part xczu3eg-sfvc784-2-i
   create_project $prjname ./$prjname -part $part
   # Add design source to this project
   add_files -fileset sources_1 -norecurse -scan_for_includes -quiet ./src
